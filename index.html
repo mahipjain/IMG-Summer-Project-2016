@@ -5,38 +5,81 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 	<title>Grofers - Your instant delivery app | Online Grocery Shopping</title>
 	<link rel="shortcut icon" type="image/png" href=""></link>
+	<link rel="stylesheet" type="text/css" href="style/animate.css"></link>
+	<link rel="stylesheet" type="text/css" href="style/landing.css"></link>
+	<link rel="stylesheet" type="text/css" href="style/owl.css"></link>
+	<link rel="stylesheet" type="text/css" href="style/style.css"></link>
+	<link rel="stylesheet" type="text/css" href="style/timeline.css"></link>
 </head>
 <body>
-	<div class="transparent-header">
+	<div class="tranparent-header">
+		<style>
+			.fade {
+			opacity: 0;
+			-webkit-transition: opacity 1s linear;
+			transition: opacity .30s linear;
+			}
+		</style>
 		<header class="borderBottom">
-			<a href="#">
-				<img src="media/grofers-logo.png"><img>
+		<div id="one"></div>
+			<a class="navbar-brand" href="#">
+				<img src="media/grofers-logo.png">
 			</a>
-			<nav>
+			<nav id="cd-top-nav">
 				<ul>
-					<li><a href="#">We're Hiring</a></li>
+					<li class="hiring-bold"><a href="#">We're Hiring</a></li>
 					<li><a href="#">About Us</a></li>
 					<li><a href="#">Blog</a></li>
 					<li><a href="#">Get Your Store Listed</a></li>
 				</ul>
 			</nav>
-			<a href="#">
+			<a id="cd-menu-trigger" href="#"><span class="cd-menu-icon"></span>
 			</a>
 		</header>
-		<nav>
-			<ul>
-				<li><a href="#">About Us</a></li>
-				<li><a href="#">We're Hiring</a></li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Get Your Store Listed</a></li>
+		<nav id="cd-lateral-nav">
+			<ul class="cd-navigation links">
+				<li class="top-link hidden-md"><a href="#">About Us</a></li>
+				<li class="hidden-md"><a href="#">We're Hiring</a></li>
+				<li class="hidden-md"><a href="#">Blog</a></li>
+				<li class="hidden-md"><a href="#">Get Your Store Listed</a></li>
 				<li><a href="#">Contact Us</a></li>
-				
+				<li><a href="#">Press Contact</a></li>
+				<li><a href="#">Mobile App</a></li>
+			</ul>
+			<ul class="cd-navigation links">
+				<li><a href="#">Terms &amp; Conditions</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#" class="faqs">FAQs</a></li>
+				<li><a href="#">Compliance</a></li>
+			</ul>
+			<ul class="cd-navigation social-media">
+				<li class="social">
+					<a class="first-icon twitter" href="#">
+                    <i title="Follow us on Instagram" class="grofers-social-icon fa fa-instagram"></i>
+					</a>
+					<a class="facebook" href="#">
+                    <i title="Like us? Share on Facebook!" class="grofers-social-icon fa fa-facebook"></i>
+					</a>
+					<a class="google" href="#">
+					<i title="Follow us on Twitter" class="grofers-social-icon fa fa-twitter"></i>
+					</a>
+					<a class="linkedin" href="#">
+                    <i title="LinkedIn" class="grofers-social-icon fa fa-linkedin"></i>
+					</a>
+				</li>
+			</ul>
+			<ul class="cd-navigation links call_us">
+            <li><a class="grofers-phone" href="#">Call Us On <span>+91 11 3355 2400</span></a></li>
+			</ul>
+			<ul class="cd-navigation footer-border">
+				<li><i class="fa fa-copyright copyright fa-lg"></i>
+					Grofers India Pvt. Ltd. 2016-2017</li>
 			</ul>
 		</nav>
 	</div>
 	<main class="cd-main-content">
 		<div class="cover">
-			<div class="outer lazy">
+			<div class="outer lazy" style="display: table; background-image: url('media/background_2.png')">
 				<div class="inner constant-padding">
 					<h1>WE GET IT.</h1>
 					<h4>All. Handpicked. Quick.</h4>
@@ -57,6 +100,120 @@
 				</div>
 			</div>
 		</div>
+		<section class="extra-stuff">
+          <div class="container constant-padding">
+            <p>“GROFERS” is owned &amp; managed by ‘Grofers India Private Limited’ and is not related, linked or interconnected in 
+            whatsoever manner or nature, to “GROFFR.COM” which is a real estate services business operated by 
+            ‘Redstone Consultancy Services Private Limited’.</p>
+          </div>
+        </section>
+		<section class="products" id="products">
+          <div class="container">
+            <h1 class="heading">A wide range of products</h1>
+            <h4 class="subheading">Choose from a wide range of categories and more than 1,75,000 
+                products from your favourite stores from the comfort of your home.</h4>
+              <ul class="list-inline hidden-xs">
+                <li>
+                  <img style="visibility: hidden; animation-delay: 0.5s; animation-name: none;" class="wow zoomIn" src="" data-wow-delay="0.5s">
+                  <h4 class="other-text">Fresh Produce</h4>
+                </li>
+                <li>
+                  <img style="visibility: hidden; animation-delay: 0.3s; animation-name: none;" class="wow zoomIn" src="" data-wow-delay="0.3s">
+                  <h4 class="other-text">Grocery</h4>
+                </li>
+                <li>
+                  <img style="visibility: hidden; animation-delay: 0.5s; animation-name: none;" class="wow zoomIn" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/mobiles.svg" data-wow-delay="0.5s">
+                  <h4 class="other-text">Electronics</h4>
+                </li>
+                <li>
+                  <img style="visibility: hidden; animation-delay: 0.5s; animation-name: none;" class="wow zoomIn" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/pet-care.svg" data-wow-delay="0.5s">
+                  <h4 class="other-text">Pet Care</h4>
+                </li>
+                <li>
+                  <img style="visibility: hidden; animation-delay: 0.5s; animation-name: none;" class="wow zoomIn" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/bakery.svg" data-wow-delay="0.5s">
+                  <h4 class="other-text">Bakery</h4>
+                </li>
+                <li>
+                  <img style="visibility: hidden; animation-delay: 0.5s; animation-name: none;" class="wow zoomIn" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/cosmetics.svg" data-wow-delay="0.5s">
+                  <h4 class="other-text">Cosmetics</h4>
+                </li>
+              </ul>
+			  
+			  <ul class="list-inline second-list hidden-xs">
+                <li>
+                  <img style="visibility: hidden; animation-delay: 0.3s; animation-name: none;" class="wow zoomIn" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/meats.svg" data-wow-delay="0.3s">
+                  <h4 class="other-text">Meats</h4>
+                </li>
+                <li>
+                  <img style="visibility: hidden; animation-delay: 0.3s; animation-name: none;" class="wow zoomIn" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/flowers.svg" data-wow-delay="0.3s">
+                  <h4 class="other-text">Flowers</h4>
+                </li>
+                <li>
+                  <img style="visibility: hidden; animation-delay: 0.5s; animation-name: none;" class="wow zoomIn" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/sports.svg" data-wow-delay="0.5s">
+                  <h4 class="other-text">Sports</h4>
+                </li>
+                <li>
+                  <img style="visibility: hidden; animation-delay: 0.3s; animation-name: none;" class="wow zoomIn" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/household.svg" data-wow-delay="0.3s">
+                  <h4 class="other-text">Household</h4>
+                </li>
+                <li>
+                  <img style="visibility: hidden; animation-delay: 0.3s; animation-name: none;" class="wow zoomIn" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/baby-care.svg" data-wow-delay="0.3s">
+                  <h4 class="other-text">Baby Care</h4>
+                </li>
+                
+              </ul>
+			  
+			  <div class="row hidden-sm hidden-md hidden-lg mobile-products">
+                <div class="col-xs-4 rmv-pdng">
+                  <div class="inner">
+                    <img style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;" class="wow zoomIn animated" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/fruits-vegetables.svg" data-wow-delay="0.5s">
+                    <h4 class="other-text">Fresh Produce</h4>
+                  </div>
+                </div>
+                <div class="col-xs-4">
+                  <img style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;" class="wow zoomIn animated" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/grocery.svg" data-wow-delay="0.3s">
+                  <h4 class="other-text">Grocery</h4>
+                </div>
+                <div class="col-xs-4">
+                  <img style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;" class="wow zoomIn animated" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/mobiles.svg" data-wow-delay="0.5s">
+                  <h4 class="other-text">Electronics</h4>
+                </div>
+                <div class="col-xs-4" li="">
+                  <img style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;" class="wow zoomIn animated" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/pet-care.svg" data-wow-delay="0.5s">
+                  <h4 class="other-text">Pet Care</h4>
+                </div>
+                <div class="col-xs-4">
+                  <img style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;" class="wow zoomIn animated" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/bakery.svg" data-wow-delay="0.5s">
+                  <h4 class="other-text">Bakery</h4>
+                </div>
+                <div class="col-xs-4">
+                  <img style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;" class="wow zoomIn animated" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/cosmetics.svg" data-wow-delay="0.5s">
+                  <h4 class="other-text">Cosmetics</h4>
+                </div>
+                <div class="col-xs-4">
+                  <img style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;" class="wow zoomIn animated" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/meats.svg" data-wow-delay="0.3s">
+                  <h4 class="other-text">Meats</h4>
+                </div>
+                <div class="col-xs-4">
+                  <img style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;" class="wow zoomIn animated" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/flowers.svg" data-wow-delay="0.3s">
+                  <h4 class="other-text">Flowers</h4>
+                </div>
+                <div class="col-xs-4">
+                  <img style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;" class="wow zoomIn animated" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/sports.svg" data-wow-delay="0.5s">
+                  <h4 class="other-text">Sports</h4>
+                </div>
+                <div class="col-xs-4">
+                  <img style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;" class="wow zoomIn animated" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/household.svg" data-wow-delay="0.3s">
+                  <h4 class="other-text">Household</h4>
+                </div>
+                <div class="col-xs-4 pdng0">
+                  <img style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;" class="wow zoomIn animated" src="Grofers%20-%20Your%20instant%20delivery%20app%20_%20Online%20Grocery%20Shopping_files/baby-care.svg" data-wow-delay="0.3s">
+                  <h4 class="other-text">Baby Care</h4>
+                </div>
+              </div>
+
+          </div>
+		</section>
 	</main>
 </body>
 </html>
